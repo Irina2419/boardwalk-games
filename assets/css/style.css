@@ -102,6 +102,22 @@ h2 {
     border: none;
 }
 
+/* Events Section */
+
+#events h3 {
+    color: var(--highlight-color); /* Use the standard highlight blue */
+}
+
+/* Style for the student discount info block */
+#events .student-discount-info {
+    background-color: var(--highlight-color); /* Your main highlight blue */
+    color: white;                             /* White text */
+    font-weight: bold;                        /* Bold text */
+    padding: 0.5rem 1rem;                     /* Add padding around the text (adjust as needed) */
+    display: inline-block;                    /* Makes background wrap content + padding */
+    margin-bottom: 0;                         /* Override default paragraph bottom margin if needed */
+}
+
 /* Footer / contact */
 
 #contact {
